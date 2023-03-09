@@ -3,7 +3,7 @@ const initialState = {
   registeredUser: [
     {
       username: "siddhi",
-      passsword: "siddhi",
+      password: "siddhi",
     },
   ],
 };
