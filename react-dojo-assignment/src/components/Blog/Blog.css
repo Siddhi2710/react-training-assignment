@@ -1,0 +1,61 @@
+.main-heading {
+  text-align: center;
+}
+.card > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+.card-title {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: 500 !important;
+  font-style: normal;
+}
+.badge-warning2,
+.text-muted,
+a.card-link.text-primary.read-more {
+  font-family: Roboto, sans-serif !important;
+}
+.card-subtitle,
+.card-text:last-child {
+  margin-bottom: 0;
+}
+.card-subtitle {
+  font-weight: 400;
+  margin-top: 0.2rem;
+}
+.card-link + .card-link {
+  margin-left: 1.5rem;
+}
+.card-footer:last-child {
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+button.btn-Logout {
+  padding: 0px 10px 0px 10px;
+  margin: auto;
+  border-radius: 10px;
+}
+.heading {
+  display: grid;
+  grid-template-columns: 90% auto;
+}
+.row {
+  place-content: center;
+}
+i#closeBlog {
+  float: right;
+  padding-bottom: 1%;
+  cursor: pointer;
+}
+button.createBlog {
+  border-radius: 10px;
+}
