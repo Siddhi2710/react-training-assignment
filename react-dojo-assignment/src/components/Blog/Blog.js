@@ -107,9 +107,9 @@ const Blog = (props) => {
       <div className="clearfix mt-3">
         <h3 className="float-left"> Hello {loggedInUser} </h3>
         <div className="float-right">
-          <button className="btn btn-primary ml-3" onClick={handleLogout}>
+          {/* <button className="btn btn-primary ml-3" onClick={handleLogout}>
             Logout
-          </button>
+          </button> */}
           {!createBlog ? (
             <button
               className="btn btn-primary ml-3"
@@ -120,6 +120,9 @@ const Blog = (props) => {
           ) : (
             ""
           )}
+          <button className="btn btn-primary ml-3" onClick={handleLogout}>
+            Logout
+          </button>
         </div>
       </div>
 
