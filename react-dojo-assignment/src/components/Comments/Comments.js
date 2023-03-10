@@ -12,12 +12,12 @@ const Comments = ({ title, content, postid, addcomment }) => {
           {isActive ? (
             <div className="border-bottom mb-3">
               <span>
-                Hide Comment <i className="fa-solid fa-circle-arrow-up"></i>
+                Hide Comments <i className="fa-solid fa-circle-arrow-up"></i>
               </span>
             </div>
           ) : (
             <span>
-              View Comment <i className="fa-solid fa-circle-arrow-down"></i>
+              Show Comments <i className="fa-solid fa-circle-arrow-down"></i>
             </span>
           )}
         </div>
